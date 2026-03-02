@@ -9,11 +9,28 @@ Generate PDF slide decks from Markdown using any MCP-compatible AI client.
 
 ## Install
 
+### Via Smithery (easiest — auto-configures your client)
+
+```bash
+# Claude Desktop
+npx @smithery/cli install @agenticdecks/deckrun-free --client claude
+
+# Cursor
+npx @smithery/cli install @agenticdecks/deckrun-free --client cursor
+
+# VS Code (GitHub Copilot)
+npx @smithery/cli install @agenticdecks/deckrun-free --client vscode
+```
+
+Server page: https://smithery.ai/servers/agenticdecks/deckrun-free
+
+### Manual install
+
 ```bash
 pip install mcp requests
 ```
 
-## Setup
+## Manual Setup
 
 ### Claude Desktop
 
@@ -60,14 +77,6 @@ In `.vscode/settings.json`:
     }
   }
 }
-```
-
-### Smithery
-
-Install via [Smithery](https://smithery.ai/server/@agenticdecks/deckrun-free):
-
-```bash
-npx @smithery/cli install @agenticdecks/deckrun-free --client claude
 ```
 
 ## Tools
