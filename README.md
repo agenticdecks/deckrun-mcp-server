@@ -20,9 +20,26 @@ npx @smithery/cli install @agenticdecks/deckrun-free --client cursor
 
 # VS Code (GitHub Copilot)
 npx @smithery/cli install @agenticdecks/deckrun-free --client vscode
+
+# OpenAI Codex CLI
+npx @smithery/cli install @agenticdecks/deckrun-free --client codex
 ```
 
 Server page: https://smithery.ai/servers/agenticdecks/deckrun-free
+
+### Google Antigravity
+
+Add to `~/.gemini/antigravity/mcp_config.json` (no local Python install needed):
+
+```json
+{
+  "mcpServers": {
+    "deckrun-free": {
+      "serverUrl": "https://free.agenticdecks.com/mcp/"
+    }
+  }
+}
+```
 
 ### Manual install
 
